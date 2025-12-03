@@ -1,0 +1,311 @@
+{
+  "appTitle": "📚 City Library",
+  "login": "Login",
+  "logout": "Logout",
+  "signup": "Sign Up",
+  "welcome": "Welcome",
+  "borrowBook": "Borrow Book",
+  "returnBook": "Return Book",
+  "searchBook_": "Search Book",
+  "showAllBooks": "Show All Books",
+  "welcome_user": "Welcome, {{name}}! 👋",
+  "goodMorning": "Good Morning",
+  "goodAfternoon": "Good Afternoon",
+  "goodEvening": "Good Evening",
+  "selectOperation": "👆 Select an operation to get started.",
+  "home_" : "Home",
+  "operations": {
+    "showBooks": "Show All Books",
+    "showUsers": "Show All Users",
+    "addBooks": "Add Books",
+    "searchUser": "Search User",
+    "searchBookLike": "Search Book",
+    "searchUserId": "Search User ID",
+    "findUserFine": "Find User Fine",
+    "updateUserFine" : "Pay Fine"
+  },
+  "welcome_users": "Welcome, {{name}}! 👋",
+  "userId": "User ID",
+  "yourDashboard": "Your Library Dashboard",
+  "operations_user": {
+    "books": "All Books",
+    "search": "Search Book",
+    "fine": "View Fines",
+    "borrow": "Borrow Book",
+    "return": "Return Book",
+    "liveSearch": "Live Search"
+  },
+  "descriptions": {
+    "books": "Browse every book available in the library collection.",
+    "search": "Quickly find books by ID, name, or category.",
+    "fine": "Check your pending or cleared fine details.",
+    "borrow": "Borrow books with one click and track due dates.",
+    "return": "Easily return borrowed books and update status.",
+    "liveSearch": "Instantly search and filter books as you type."
+  },
+  "footer": "© {{year}} City Library. All rights reserved.",
+  "selectOperation_user": "Select an operation to begin.",
+
+  "addBook": {
+  "title": "Add New Book",
+  "submit": "Add Book",
+  "success": "✅ Book added successfully!",
+  "exists": "⚠️ Book ID already exists. Try another.",
+  "failed": "❌ Failed to add book. Please try again.",
+  "placeholders": {
+    "bookName": "Book Name",
+    "author": "Author",
+    "category": "Category",
+    "publicationYear": "Publication Year",
+    "row": "Row / Shelf",
+    "copies": "No. of Copies"
+  }
+},
+"searchBook": {
+  "title": "Search Book",
+  "button": "Search",
+  "alertEnterValue": "Please enter a value to search!",
+  "alertFailed": "Search failed. Please check your backend API.",
+  "fields": {
+    "id": "Book ID",
+    "name": "Book Name",
+    "category": "Category",
+    "year": "Publication Year"
+  },
+  "table": {
+    "id": "ID",
+    "name": "Book Name",
+    "author": "Author",
+    "category": "Category",
+    "year": "Publication Year"
+  },
+  "noResults": "No books found yet. Try searching by ID, name, or category."
+},
+"searchBookLike": {
+  "title": "Smart Book Search",
+  "placeholder": "Search by ID, Book Name, Author, Year, or Category...",
+  "searching": "Searching...",
+  "table": {
+    "id": "ID",
+    "name": "Book Name",
+    "author": "Author",
+    "category": "Category",
+    "year": "Publication Year",
+    "row": "Row",
+    "copies": "Copies"
+  },
+  "noResults": "No books found for “{{query}}”."
+},
+"searchUserLike": {
+  "title": "Search User",
+  "placeholder": "Search by ID, Name, or Phone Number...",
+  "searching": "Searching...",
+  "table": {
+    "userId": "User ID",
+    "name": "Name",
+    "phone": "Phone Number",
+    "fine" : "Fine",
+    "borowed" : "Borowed",
+    "available" : "Available"
+  },
+  "noResults": "No users found for “{{query}}”."
+},
+"searchUser": {
+  "title": "Search User",
+  "placeholder": "Enter User ID",
+  "search": "Search",
+  "searching": "Searching...",
+  "alertEnterId": "Please enter a User ID!",
+  "userNotFound": "❌ User not found!",
+  "detailsTitle": "User Details",
+  "fields": {
+    "id": "ID",
+    "name": "Name",
+    "phone": "Phone",
+    "fine": "Fine"
+  },
+  "hint": "Enter a User ID to search for details."
+},
+"showBooks": {
+  "title": "All Books",
+  "loading": "Loading books...",
+  "noBooks": "No books available.",
+  "fetchError": "❌ Failed to fetch books. Please check your backend API.",
+  "updateSuccess": "✅ Book updated successfully!",
+  "updateFail": "❌ Failed to update book.",
+  "editTitle": "Edit Book Details",
+  "cancel": "Cancel",
+  "save": "Save",
+  "editTooltip": "Edit Book",
+  "fields": {
+    "id": "ID",
+    "name": "Book Name",
+    "author": "Author",
+    "category": "Category",
+    "year": "Year",
+    "row": "Row",
+    "copies": "Copies",
+    "edit": "Edit"
+  },
+  "placeholders": {
+    "name": "Book Name",
+    "author": "Author",
+    "category": "Category",
+    "year": "Year",
+    "row": "Row",
+    "copies": "Copies"
+  }
+},
+"showUsers": {
+  "title": "All Users",
+  "loading": "Loading users...",
+  "noUsers": "No users found.",
+  "fetchError": "❌ Failed to fetch users.",
+  "fetchBooksError": "❌ Failed to fetch user books.",
+  "viewBooks": "View Books",
+  "borrowedBooks": "Borrowed Books",
+  "reservedBooks": "Reserved Books",
+  "noBorrowed": "No borrowed books.",
+  "noReserved": "No reserved books.",
+  "modal": {
+    "title": "Books of {{name}}"
+  },
+  "fields": {
+    "id": "User ID",
+    "name": "Name",
+    "phone": "Phone Number",
+    "fine" : "Fine",
+    "actions": "Actions"
+  },
+  "bookFields": {
+    "id": "Book ID",
+    "name": "Book Name",
+    "author": "Author",
+    "year": "Year",
+    "checkedOut": "Checked Out"
+  }
+},
+"userFine": {
+  "title": "Find User Fine",
+  "placeholder": "Enter User ID",
+  "placeholder_amount" : "Enter the amount",
+  "findFine": "Find Fine",
+  "fetching": "Fetching...",
+  "invalidId": "Please enter a valid User ID.",
+  "fetchError": "❌ Failed to fetch fine. Please check the User ID.",
+  "userNotFound": "User not found",
+  "userId": "User ID",
+  "totalFine": "Total Fine",
+  "findFinebutton" : "Pay",
+  "payFine" : " Update Payment",
+  "success" : " Fine Paid successfully"
+},
+"allBooks": {
+  "title": "All Books",
+  "loadError": "Failed to load books. Please check the backend.",
+  "noBooks": "No books available right now.",
+  "columns": {
+    "id": "ID",
+    "bookName": "Book Name",
+    "author": "Author",
+    "category": "Category",
+    "year": "Year",
+    "copy" : "Copies"
+  }
+},
+"borrowBook_": {
+  "title": "Borrow Book",
+  "enterValidId": "Please enter a valid Book ID.",
+  "borrowFailed": "❌ Borrowing failed. Please check the Book ID.",
+  "instruction1": "Enter the",
+  "instruction2": "you wish to borrow. Ensure you have no pending fines before borrowing.",
+  "bookId": "Book ID",
+  "placeholder": "Enter Book ID",
+  "processing": "Processing...",
+  "button": "Borrow"
+},
+"borrowed": {
+  "title": "Borrowed & Reserved Books",
+  "borrowedTitle": "Borrowed Books",
+  "reservedTitle": "Reserved Books",
+  "confirmReturn": "Are you sure you want to return this book?",
+  "confirmCancel": "Cancel this reservation?",
+  "returnSuccess": "Book returned successfully!",
+  "cancelSuccess": "Reservation canceled successfully!",
+  "returnFail": "Return failed.",
+  "cancelFail": "Canceling reservation failed.",
+  "noBorrowed": "No borrowed books found.",
+  "noReserved": "No reserved books found.",
+  "returnBtn": "Return",
+  "cancelBtn": "Cancel",
+  "columns": {
+    "id": "Book ID",
+    "name": "Book Name",
+    "author": "Author",
+    "category": "Category",
+    "year": "Year",
+    "borrowedOn": "Return before On",
+    "reservedOn": "Reserved On",
+    "action": "Action"
+  }
+},
+"search": {
+  "title": "Search Books",
+  "byId": "Search by ID",
+  "byName": "Search by Name",
+  "byCategory": "Search by Category",
+  "button": "Search",
+  "enterValue": "Please enter a value before searching!",
+  "fail": "Search failed. Please check your backend API.",
+  "noResults": "No books found yet. Try searching by ID, Name, or Category.",
+  "placeholder": {
+    "id": "Enter Book ID",
+    "name": "Enter Book Name",
+    "category": "Enter Category"
+  },
+  "columns": {
+    "id": "ID",
+    "name": "Book Name",
+    "author": "Author",
+    "category": "Category",
+    "year": "Year"
+  }
+},
+"fine": {
+  "title": "View Fine",
+  "loading": "Loading fine details...",
+  "details": "Fine Details",
+  "amountLabel": "Fine Amount:",
+  "pending": "Status: Pending Payment",
+  "noDues": "Status: No Dues ✅",
+  "noDetails": "No fine details available.",
+  "error": "Failed to fetch fine details."
+},
+  "home": {
+    "welcome": "Welcome to",
+    "libraryName": "Central Library",
+    "description": "Discover thousands of books, journals, and digital resources. Experience a modern, peaceful environment designed to inspire knowledge and creativity.",
+    "dashboardButton": "Go to Dashboard",
+    "exploreTitle": "Explore Our Library",
+    "features": {
+      "modernFacilities": {
+        "title": "Modern Facilities",
+        "description": "Spacious reading halls, comfortable seating, and a calm study environment."
+      },
+      "extensiveCollection": {
+        "title": "Extensive Collection",
+        "description": "Access thousands of books, research papers, and digital resources."
+      },
+      "peacefulAreas": {
+        "title": "Peaceful Study Areas",
+        "description": "Dedicated spaces for students and professionals to read, learn, and collaborate."
+      }
+    },
+    "contactTitle": "Contact Us",
+    "contact": {
+      "email": "Email",
+      "phone": "Phone",
+      "address": "Address: 123 Library Street, Chennai"
+    }
+  }
+}
