@@ -8,8 +8,8 @@ public class EmailSender {
 
     public static void sendEmail(String to, String subject, String text) throws Exception {
 
-        String from = "sriramsekar28@gmail.com"; 
-        String appPassword = "wcsnnxrrjsvchuwu"; 
+        String from = ""; 
+        String appPassword = ""; 
 
         Properties props = new Properties();
         props.put("mail.smtp.host", "smtp.gmail.com");
